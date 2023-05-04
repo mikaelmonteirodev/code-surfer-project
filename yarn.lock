@@ -4246,12 +4246,19 @@ eslint-module-utils@^2.4.0:
     debug "^2.6.8"
     pkg-dir "^2.0.0"
 
-eslint-plugin-flowtype@^3.13.0, eslint-plugin-flowtype@2.x:
+eslint-plugin-flowtype@^3.13.0:
   version "3.13.0"
   resolved "https://registry.npmjs.org/eslint-plugin-flowtype/-/eslint-plugin-flowtype-3.13.0.tgz"
   integrity sha512-bhewp36P+t7cEV0b6OdmoRWJCBYRiHFlqPZAG1oS3SF+Y0LQkeDvFSM4oxoxvczD1OdONCXMlJfQFiWLcV9urw==
   dependencies:
     lodash "^4.17.15"
+
+eslint-plugin-flowtype@2.x:
+  version "2.50.3"
+  resolved "https://registry.npmjs.org/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.50.3.tgz"
+  integrity sha512-X+AoKVOr7Re0ko/yEXyM5SSZ0tazc6ffdIOocp2fFUlWoDt7DV0Bz99mngOkAFLOAWjqRA5jPwqUCbrx13XoxQ==
+  dependencies:
+    lodash "^4.17.10"
 
 eslint-plugin-graphql@^3.1.0:
   version "3.1.0"
@@ -4333,7 +4340,7 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
-eslint@*, "eslint@^3 || ^4 || ^5 || ^6", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0", eslint@^5.0.0, eslint@^5.16.0, "eslint@>= 4.12.1", "eslint@>=1.6.0 <7.0.0", eslint@>=5.0.0, "eslint@2.x - 6.x", eslint@5.x:
+eslint@*, "eslint@^3 || ^4 || ^5 || ^6", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0", eslint@^5.0.0, eslint@^5.16.0, "eslint@>= 4.12.1", "eslint@>=1.6.0 <7.0.0", eslint@>=2.0.0, eslint@>=5.0.0, "eslint@2.x - 6.x", eslint@5.x:
   version "5.16.0"
   resolved "https://registry.npmjs.org/eslint/-/eslint-5.16.0.tgz"
   integrity sha512-S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==
@@ -5206,7 +5213,7 @@ gatsby-telemetry@^1.1.29:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-mdx-deck@^3.0.13:
+gatsby-theme-mdx-deck@^3.0.10:
   version "3.0.13"
   resolved "https://registry.npmjs.org/gatsby-theme-mdx-deck/-/gatsby-theme-mdx-deck-3.0.13.tgz"
   integrity sha512-oeorRdFk3EbWrOMGaXgcFPArvYR7rd4Ioryj14nGg1CqWvSfJMB3vZtcBCWpfLSbIw2j7ZWBFL4GL14xvBPNxw==
@@ -7267,7 +7274,7 @@ lodash.uniq@^4.5.0, lodash.uniq@4.5.0:
   resolved "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-4.5.0.tgz"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.11.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+lodash@^4.11.1, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
   version "4.17.15"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -7546,10 +7553,10 @@ mdurl@^1.0.1:
   resolved "https://registry.npmjs.org/mdurl/-/mdurl-1.0.1.tgz"
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
-mdx-deck@3.0.10, mdx-deck@3.0.13:
-  version "3.0.13"
-  resolved "https://registry.npmjs.org/mdx-deck/-/mdx-deck-3.0.13.tgz"
-  integrity sha512-yKmls4BSEeR2g/kfanPAC+A8diagsQs0BFbGm41vi8UScKkE8LnlZDCypTdkhIcr0B0wU9Ft+fcL19WQABr8hQ==
+mdx-deck@^3.0.10, mdx-deck@3.0.10:
+  version "3.0.10"
+  resolved "https://registry.npmjs.org/mdx-deck/-/mdx-deck-3.0.10.tgz"
+  integrity sha512-ef6igJmpxVvcY0EyTty+yaNhCtsX3eMlih0oDMohzxyrknCrboHvt2hfzBSMELYaczEp9+5t/7LKZVh4nPt39A==
   dependencies:
     "@mdx-deck/themes" "^3.0.8"
     chalk "^2.4.2"
@@ -7557,7 +7564,7 @@ mdx-deck@3.0.10, mdx-deck@3.0.13:
     fs-extra "^8.1.0"
     gatsby "^2.13.24"
     gatsby-plugin-compile-es6-packages "^2.0.0"
-    gatsby-theme-mdx-deck "^3.0.13"
+    gatsby-theme-mdx-deck "^3.0.10"
     initit "^1.0.0-2"
     meow "^5.0.0"
     react "^16.8.6"
@@ -11304,6 +11311,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typescript@*, "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
+  version "5.0.4"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-5.0.4.tgz"
+  integrity sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==
 
 ua-parser-js@^0.7.18:
   version "0.7.20"
