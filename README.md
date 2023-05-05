@@ -72,6 +72,16 @@ Após terminar a instalação, confira a versão instalada com o seguinte comnan
 node -v
 ```
 
+###### Importante!
+O projeto com Code Surfer e Mdx-Deck funciona melhor com as versões mais antigas do Node.js, como por exemplo a versão 14.5.0.
+
+E agora?!
+
+Agora devemos utilizar um gerenciador de versões, para alterarmos o Node.js para a versão mais adequada ao projeto. É aí que entram o NVM ou o ASDF.
+
+---
+
+
 
 
 
