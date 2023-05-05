@@ -1,4 +1,11 @@
-# MDX Deck + Code Surfer template
+# Como iniciar meu projeto em Code-Surfer?
+
+## Resumo
+Primeiramente nós temos que organizar nosso ambiente de desenvolvimento com as tecnologias necessárias para a instalação e execução do nosso projeto de acordo com que pede a documentação de cada aplicação. E é ísso que vamos fazer agora.
+## Menu
+
+
+<!-- # MDX Deck + Code Surfer template
 
 This project was generated with the `npm init code-surfer-deck` command.
 
@@ -20,4 +27,4 @@ To build the presentation deck:
 npm run build
 ```
 
-For more documentation see [MDX Deck](https://github.com/jxnblk/mdx-deck) and [Code Surfer](https://codesurfer.pomb.us/)
+For more documentation see [MDX Deck](https://github.com/jxnblk/mdx-deck) and [Code Surfer](https://codesurfer.pomb.us/) -->
