@@ -1,3 +1,6 @@
+> Este tutotrial está em construção. Não repare a bagunça...
+
+
 # Como iniciar meu projeto em Code-Surfer?
 
 Neste tutorial, iremos aprender como instalar as dependências necessárias para contruirmos nosso projeto com Code Surfer e MDX-Deck. A princípio ele parece grande, pode dar preguiça, mas vale a pena, pois tá bem fácil de ler e de usar.
@@ -79,7 +82,7 @@ E agora?!
 
 Agora devemos utilizar um gerenciador de versões, para alterarmos o Node.js para a versão mais adequada ao projeto. É aí que entram o NVM ou o ASDF.
 
----
+<br>
 
 #### NVM ou ASDF
 
@@ -165,12 +168,23 @@ Agora com a versão correta do Node.js podemos passar para a próxima ferramenta
 
 <br>
 
-###### NPM
+#### NPM
 
 O NPM (Node Package Manager) 
 é um repositório on-line de pacotes de software Node.js prontos para uso, e é acessado usando o comando "npm" a partir do terminal ou da linha de comando. Além disso, ele é capaz de gerenciar as dependências de um projeto, permitindo que os desenvolvedores especifiquem quais pacotes ou bibliotecas o projeto precisa para ser executado corretamente.
 
-Para verificar se a sua máquina está com o NPM instalado correta
+Para verificar se a sua máquina está com o NPM instalado corretamente, primeiramente digite o seguinte comando no termimal:
+
+```
+npm -v
+```
+
+
+![](https://upload.wikimedia.org/wikipedia/commons/d/d9/Under_construction_animated.gif)
+
+> Este tutotrial está em construção. Pausa para o café...
+
+
 
 
 
