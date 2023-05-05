@@ -35,6 +35,13 @@ Para construírmos nosso projeto precisamos ter algumas ferramentas à nossa dis
 - Code Surfer
 - VS Code
 
+---
+
+## Ambiente de Desenvolvimento
+
+Para construírmos nosso projeto precisamos ter algumas ferramentas à nossa disposição. E ter as ferramentas adequadas significa ter o ambiente de desenvolvimento definido.
+
+
 
 
 
