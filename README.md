@@ -56,6 +56,22 @@ Você pode usar o diretório onde se encontram seus outros projetos, pois quando
 
 Acesse o diretório escolhido pela terminal (Seja do Windows, Linux ou IOS) e vamos para a instalação de cada um deles.
 
+#### Node.js
+
+Para que o projeto com Code Surfer e MDX-Deck funcione perfeitamente, é necessário que você tenha a versão do Node.js instalado corretamente na sua maquina.
+
+Baixe diretamente do site oficial do [Node.js](https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi). Ou, para instalar manualmente pelo terminal do linux, digite o seguinte comando:
+
+```
+sudo apt-get install nodejs
+```
+
+Após terminar a instalação, confira a versão instalada com o seguinte comnando:
+
+```
+node -v
+```
+
 
 
 
