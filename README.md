@@ -117,6 +117,54 @@ nvm install 14.5.0
 ```
 <br>
 
+###### ASDF
+
+O ASDF (Another System Version Manager) permite que você instale e gerencie diferentes versões de linguagens em um único sistema, e permite alternar facilmente entre as versões instaladas.
+
+O comando para instalar o ASDF depende do sistema operacional que está sendo utilizado. Aqui estão os comandos para algumas plataformas comuns:
+
+No Ubuntu ou Debian digite:
+
+```
+sudo apt-get install asdf
+```
+
+No macOS (usando Homebrew) digite:
+
+```
+brew install asdf
+```
+
+No Arch Linux digite:
+
+```
+sudo pacman -S asdf
+```
+
+Para verificar a versão do ASDF instalada no seu sistema, você pode usar o seguinte comando no terminal:
+
+```
+asdf --version
+```
+
+Para alterar a versão do Node.js usando o ASDF, você pode usar o seguinte comando:
+
+```
+asdf global node <versão>
+```
+
+Substitua <versão> pela versão específica do Node.js que você deseja usar. Por exemplo, se você quiser mudar para a versão 14.5.0, o comando seria:
+
+```
+asdf global node 14.5.0
+```
+
+Pronto!
+
+Agora com a versão correta do Node.js podemos passar para a próxima ferramenta que é o NPM. 
+
+<br>
+
 
 
 
