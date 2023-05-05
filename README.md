@@ -81,6 +81,11 @@ Agora devemos utilizar um gerenciador de versões, para alterarmos o Node.js par
 
 ---
 
+#### NVM ou ASDF
+
+Tanto o NVM quanto o ASDF são ferramentas muito úteis para desenvolvedores que precisam trabalhar com diferentes versões de linguagens de programação em um único sistema. Eles permitem que você instale e gerencie várias versões de uma linguagem de programação e suas dependências, sem precisar se preocupar com conflitos entre as diferentes versões instaladas.
+<br>
+
 
 
 
