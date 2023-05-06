@@ -192,6 +192,12 @@ O MDX-Deck é altamente configurável e fornece recursos para personalizar a apa
 
 Alguns dos recursos do MDX-Deck incluem a capacidade de criar transições personalizadas entre os slides, incorporar código ao vivo e suporte para apresentações em tela cheia. Com o MDX-Deck, é possível criar apresentações profissionais e envolventes em pouco tempo.
 
+###### Code Surfer
+
+Code Surfer é uma biblioteca de apresentação de programação que permite incorporar código ao vivo nas apresentações e visualizar os resultados em tempo real. Ele é altamente configurável e suporta diferentes temas, apresentações em tela cheia, gravação de apresentações em vídeo e muito mais.
+
+
+
 
 
 
