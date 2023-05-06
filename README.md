@@ -60,27 +60,26 @@ Baixe diretamente do site oficial do [Node.js](https://nodejs.org/dist/v18.16.0/
 sudo apt-get install nodejs
 ```
 
-Após terminar a instalação, confira a versão instalada com o seguinte comnando:
+Após terminar a instalação, confira a versão instalada com o seguinte comando:
 
 ```
 node -v
 ```
-
-###### Importante!
-O projeto com Code Surfer e Mdx-Deck funciona melhor com as versões mais antigas do Node.js, como por exemplo a versão 14.5.0.
+<br>
+###### **Importante!**
+**_O projeto com Code Surfer e Mdx-Deck funciona melhor com as versões mais antigas do Node.js, como por exemplo a versão 14.5.0._**
 
 E agora?!
 
 Agora devemos utilizar um gerenciador de versões, para alterarmos o Node.js para a versão mais adequada ao projeto. É aí que entram o NVM ou o ASDF.
 
-<br>
-
+---
 #### NVM ou ASDF
 
 Tanto o NVM quanto o ASDF são ferramentas muito úteis para desenvolvedores que precisam trabalhar com diferentes versões de linguagens de programação em um único sistema. Eles permitem que você instale e gerencie várias versões de uma linguagem de programação e suas dependências, sem precisar se preocupar com conflitos entre as diferentes versões instaladas.
 <br>
 
-###### NVM
+#### NVM
 
 O NVM (Node Version Manager) é um gerenciador de versão para o Node.js. Ele permite que você instale e gerencie várias versões do Node.js em um único sistema, e permite alternar facilmente entre as versões instaladas. Com o NVM, você pode facilmente instalar diferentes versões do Node.js e alternar entre elas usando um único comando no terminal.
 
@@ -104,14 +103,14 @@ nvm --version
 ```
 nvm install <versão>
 ```
-Por exemplo, para instalar o Node.js na versão 14.5.0, você pode usar o seguinte comando:
+No caso deste projeto, para instalar o Node.js na versão 14.5.0, você pode usar o seguinte comando:
 
 ```
 nvm install 14.5.0
 ```
 <br>
 
-###### ASDF
+#### ASDF
 
 O ASDF (Another System Version Manager) permite que você instale e gerencie diferentes versões de linguagens em um único sistema, e permite alternar facilmente entre as versões instaladas.
 
