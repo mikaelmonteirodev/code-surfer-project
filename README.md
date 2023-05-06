@@ -48,6 +48,8 @@ Você pode usar o diretório onde se encontram seus outros projetos, pois quando
 
 Acesse pelo terminal o diretório escolhido (Seja do Windows, Linux ou IOS) e vamos para a instalação de cada um deles.
 
+---
+
 #### Node.js
 
 Para que o projeto com Code Surfer e MDX-Deck funcione perfeitamente, é necessário que você tenha a versão do Node.js instalado corretamente na sua maquina.
