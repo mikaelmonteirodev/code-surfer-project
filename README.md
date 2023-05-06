@@ -46,7 +46,7 @@ Escolha um diretório dentro da sua maquina para executar o projeto e os comando
 
 Você pode usar o diretório onde se encontram seus outros projetos, pois quando iniciarmos este novo projeto com Code Surfer ele criará uma nova com seu nome.
 
-Acesse o diretório escolhido pela terminal (Seja do Windows, Linux ou IOS) e vamos para a instalação de cada um deles.
+Acesse pelo terminal o diretório escolhido (Seja do Windows, Linux ou IOS) e vamos para a instalação de cada um deles.
 
 #### Node.js
 
