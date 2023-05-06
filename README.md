@@ -196,7 +196,31 @@ Alguns dos recursos do MDX-Deck incluem a capacidade de criar transições perso
 
 Code Surfer é uma biblioteca de apresentação de programação que permite incorporar código ao vivo nas apresentações e visualizar os resultados em tempo real. Ele é altamente configurável e suporta diferentes temas, apresentações em tela cheia, gravação de apresentações em vídeo e muito mais.
 
+###### Instalando o MDX-Deck + Code Surfer
 
+Com as ferramentas anteriores devidamente instaladas, nós temos agora um ambiente local organizado para iniciar nosso projeto.
+
+Ainda dentro do seu diretório escolhido, digite o seguinte comando no temrinal:
+
+```
+npm init code-surfer-deck nome-do-seu-projeto
+```
+
+Substitua _**"nome-do-seu-projeto"**_ pelo nome do seu projeto. rsrs...
+
+Depois disso acesse a pasta do seu novo projeto pelo terminal com o comando:
+
+```
+cd nome-do-seu-projeto
+```
+
+Após acessar a pasta criada, é hora de rodar o projeto. Digite o no terminal o seguinte comando:
+
+```
+npm start
+```
+
+O comando ```npm start``` 
 
 
 
