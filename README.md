@@ -15,8 +15,18 @@ Primeiramente nós temos que organizar nosso ambiente de desenvolvimento com as 
 ---
 ## Menu
 
-- Ambiente de Desenvolvimento
-    - Lista de Ferramentas
+- [Ambiente de Desenvolvimento](#ambiente-de-desenvolvimento)
+    - [Lista de Ferramentas](#ferramentas-que-iremos-utilizar)
+        - [Node.js](#nodejs)
+        - [NVM ou ASDF](#nvm-ou-asdf)
+            - [NVM](#nvm)
+            - [ASDF](#asdf)
+        - [NPM](#npm)
+        - [MDX-Deck e Code Surfer](#mdx-deck-e-code-surfer)
+            - [MDX-Deck](#mdx-deck)
+            - [Code Surfer](#code-surfer)
+            - [Instalando o MDX-Deck + Code Surfer](#instalando-o-mdx-deck-+-code-surfer)
+        - [Contribuições](#contribuições)
 - Iniciando o projeto com Code Surfer
     - Comandos
     - Instalando
