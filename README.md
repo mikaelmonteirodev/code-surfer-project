@@ -71,7 +71,7 @@ node -v
 
 E agora?!
 
-Agora devemos utilizar um gerenciador de versões, para alterarmos o Node.js para a versão mais adequada ao projeto. É aí que entram o NVM ou o ASDF.
+Agora devemos utilizar um gerenciador de versões, para alterarmos o Node.js para a versão mais adequada ao projeto. É é aí que entram o NVM ou o ASDF.
 
 ---
 #### NVM ou ASDF
@@ -152,11 +152,13 @@ Substitua <versão> pela versão específica do Node.js que você deseja usar. P
 asdf global node 14.5.0
 ```
 
+
+
 Pronto!
 
 Agora com a versão correta do Node.js podemos passar para a próxima ferramenta que é o NPM. 
 
-<br>
+---
 
 #### NPM
 
@@ -170,23 +172,25 @@ Mesmo assim, só para ter certeza, você pode verificar se a sua máquina está 
 npm -v
 ```
 
+---
+
 #### MDX-Deck e Code Surfer
 
 MDX-Deck e Code Surfer são duas bibliotecas de código aberto que permitem criar apresentações interativas usando React e MDX.
 
-###### MDX-Deck
+#### MDX-Deck
 
-MDX-Deck é uma biblioteca de código aberto que permite criar apresentações interativas usando React e MDX (Markdown com suporte a JSX). Com o MDX-Deck, os usuários podem criar apresentações com componentes React personalizados e utilizar a sintaxe de Markdown para formatar o conteúdo.
+Com o MDX-Deck, os usuários podem criar apresentações com componentes React personalizados e utilizar a sintaxe de Markdown para formatar o conteúdo.
 
 O MDX-Deck é altamente configurável e fornece recursos para personalizar a aparência e o comportamento das apresentações. Ele também suporta temas personalizados e é fácil de usar para iniciantes, enquanto ainda oferece recursos avançados para usuários experientes.
 
 Alguns dos recursos do MDX-Deck incluem a capacidade de criar transições personalizadas entre os slides, incorporar código ao vivo e suporte para apresentações em tela cheia. Com o MDX-Deck, é possível criar apresentações profissionais e envolventes em pouco tempo.
 
-###### Code Surfer
+#### Code Surfer
 
 Code Surfer é uma biblioteca de apresentação de programação que permite incorporar código ao vivo nas apresentações e visualizar os resultados em tempo real. Ele é altamente configurável e suporta diferentes temas, apresentações em tela cheia, gravação de apresentações em vídeo e muito mais.
 
-###### Instalando o MDX-Deck + Code Surfer
+#### Instalando o MDX-Deck + Code Surfer
 
 Com as ferramentas anteriores devidamente instaladas, nós temos agora um ambiente local organizado para iniciar nosso projeto.
 
@@ -198,7 +202,7 @@ npm init code-surfer-deck nome-do-seu-projeto
 
 Substitua _**"nome-do-seu-projeto"**_ pelo nome do seu projeto.
 
-Como o código acima digitado, o MDX-Deck e o Code Surfer irão criar as dependências do seu projeto com os arquivos e pastas necessários para que você possa rodar a sua apresentação.
+Com o código acima digitado, o MDX-Deck e o Code Surfer irão criar as dependências do seu projeto com os arquivos e pastas necessários para que você possa rodar a sua apresentação.
 
 Quando a instalação terminar, acesse a pasta do seu novo projeto pelo terminal com o comando:
 
