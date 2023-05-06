@@ -138,6 +138,13 @@ No Arch Linux digite:
 sudo pacman -S asdf
 ```
 
+**É necessário também fazer a instalação do Plug-in do ASDF.** Digite o seguinte comando:
+
+```
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+```
+
+
 Para verificar a versão do ASDF instalada no seu sistema, você pode usar o seguinte comando no terminal:
 
 ```
