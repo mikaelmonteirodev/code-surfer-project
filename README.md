@@ -3,7 +3,9 @@
 
 # Como iniciar meu projeto em Code-Surfer?
 
-Neste tutorial, iremos aprender como instalar as dependências necessárias para contruirmos nosso projeto com Code Surfer e MDX-Deck. A princípio ele parece grande, pode dar preguiça, mas vale a pena, pois tá bem fácil de ler e de usar.
+Este README tem a intenção de servir como tutorial. E nele, iremos aprender como instalar as dependências necessárias para construirmos nosso projeto com MDX-Deck e Code Surfer. 
+
+A princípio ele parece grande, pode dar preguiça, mas vale a pena, pois está bem fácil de ler e de executar.
 
 ---
 
@@ -27,7 +29,7 @@ Primeiramente nós temos que organizar nosso ambiente de desenvolvimento com as 
 
 ## Ambiente de Desenvolvimento
 
-Para construírmos nosso projeto precisamos ter algumas ferramentas à nossa disposição. E ter as ferramentas adequadas significa ter o ambiente de desenvolvimento definido.
+Para construírmos nosso projeto precisamos ter algumas ferramentas à nossa disposição. E ter as ferramentas adequadas significa ter o ambiente de desenvolvimento preparado para executar nosso porjeto.
 
 #### Ferramentas que iremos utilizar:
 
@@ -38,20 +40,7 @@ Para construírmos nosso projeto precisamos ter algumas ferramentas à nossa dis
 - Code Surfer
 - VS Code
 
----
-
-## Ambiente de Desenvolvimento
-
-Para construírmos nosso projeto precisamos ter algumas ferramentas à nossa disposição. E ter as ferramentas adequadas significa ter o ambiente de desenvolvimento definido.
-
-#### Ferramentas que iremos utilizar:
-
-- Node.js (versão 14.5.0)
-- NVM ou ASDF
-- NPM
-- MDX Deck
-- Code Surfer
-- VS Code
+<br>
 
 Escolha um diretório dentro da sua maquina para executar o projeto e os comandos que serão informados aqui neste tutorial. 
 
@@ -200,27 +189,32 @@ Code Surfer é uma biblioteca de apresentação de programação que permite inc
 
 Com as ferramentas anteriores devidamente instaladas, nós temos agora um ambiente local organizado para iniciar nosso projeto.
 
-Ainda dentro do seu diretório escolhido, digite o seguinte comando no temrinal:
+Ainda dentro do seu diretório escolhido, digite o seguinte comando no terminal:
 
 ```
 npm init code-surfer-deck nome-do-seu-projeto
 ```
 
-Substitua _**"nome-do-seu-projeto"**_ pelo nome do seu projeto. rsrs...
+Substitua _**"nome-do-seu-projeto"**_ pelo nome do seu projeto.
 
-Depois disso acesse a pasta do seu novo projeto pelo terminal com o comando:
+Como o código acima digitado, o MDX-Deck e o Code Surfer irão criar as dependências do seu projeto com os arquivos e pastas necessários para que você possa rodar a sua apresentação.
+
+Quando a instalação terminar, acesse a pasta do seu novo projeto pelo terminal com o comando:
 
 ```
 cd nome-do-seu-projeto
 ```
 
-Após acessar a pasta criada, é hora de rodar o projeto. Digite o no terminal o seguinte comando:
+Após acessar a pasta criada, é hora de rodar o projeto. Digite no terminal o seguinte comando:
 
 ```
 npm start
 ```
 
-O comando ```npm start``` 
+O comando ```npm start``` vai rodar seu projeto e abrirá uma janela no navegador mostrando uma apresentação de slides de demonstração, feita com MDX-Deck e Code Surfer.
+
+
+
 
 
 
