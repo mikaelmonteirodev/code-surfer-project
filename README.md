@@ -264,7 +264,7 @@ Para saber todas as funcionalidades do Code Surfer acesse https://codesurfer.pom
 
 Este tutorial é público e estará sempre aberto para contribuições.
 
-Caso você queira dar uma sugestão, fazer uma reclamação ou me pagar um café, crie uma issue contendo as informações sugeridas que ela será analisada como contribuiçõa.
+Caso você queira dar uma sugestão, fazer uma reclamação ou me pagar um café, crie uma issue contendo as informações sugeridas que ela será analisada como contribuição.
 
 Aqui estão os atuais contribuidores deste projeto:
 
