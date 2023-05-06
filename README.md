@@ -103,7 +103,7 @@ nvm --version
 ```
 nvm install <versão>
 ```
-No caso deste projeto, para instalar o Node.js na versão 14.5.0, você pode usar o seguinte comando:
+No caso deste projeto, para instalar o Node.js na versão 14.5.0, você deve usar o seguinte comando:
 
 ```
 nvm install 14.5.0
