@@ -1,3 +1,6 @@
+> Este tutotrial está em construção. Não repare a bagunça...
+
+
 # Como iniciar meu projeto em Code-Surfer?
 
 Neste tutorial, iremos aprender como instalar as dependências necessárias para contruirmos nosso projeto com Code Surfer e MDX-Deck. A princípio ele parece grande, pode dar preguiça, mas vale a pena, pois tá bem fácil de ler e de usar.
@@ -19,6 +22,21 @@ Primeiramente nós temos que organizar nosso ambiente de desenvolvimento com as 
 - Usando
 - Contribuidores
 - Licença
+
+---
+
+## Ambiente de Desenvolvimento
+
+Para construírmos nosso projeto precisamos ter algumas ferramentas à nossa disposição. E ter as ferramentas adequadas significa ter o ambiente de desenvolvimento definido.
+
+#### Ferramentas que iremos utilizar:
+
+- Node.js (versão 14.5.0)
+- NVM ou ASDF
+- NPM
+- MDX Deck
+- Code Surfer
+- VS Code
 
 ---
 
@@ -64,7 +82,7 @@ E agora?!
 
 Agora devemos utilizar um gerenciador de versões, para alterarmos o Node.js para a versão mais adequada ao projeto. É aí que entram o NVM ou o ASDF.
 
----
+<br>
 
 #### NVM ou ASDF
 
@@ -150,18 +168,69 @@ Agora com a versão correta do Node.js podemos passar para a próxima ferramenta
 
 <br>
 
-###### NPM
+#### NPM
 
-O NPM (Node Package Manager) 
-é um repositório on-line de pacotes de software Node.js prontos para uso, e é acessado usando o comando "npm" a partir do terminal ou da linha de comando. Além disso, ele é capaz de gerenciar as dependências de um projeto, permitindo que os desenvolvedores especifiquem quais pacotes ou bibliotecas o projeto precisa para ser executado corretamente.
+O NPM (Node Package Manager) é um repositório on-line de pacotes de software Node.js prontos para uso, e é acessado usando o comando "npm" a partir do terminal ou da linha de comando. Além disso, ele é capaz de gerenciar as dependências de um projeto, permitindo que os desenvolvedores especifiquem quais pacotes ou bibliotecas o projeto precisa para ser executado corretamente.
 
-Para verificar se a sua máquina está com o NPM instalado correta
+**O NPM é instalado automaticamente junto com o Node.js.** Portanto, se você já tiver o Node.js instalado em seu sistema, o NPM já estará disponível.
+
+Mesmo assim, só para ter certeza, você pode verificar se a sua máquina está com o NPM instalado corretamente, digitando o seguinte comando no termimal:
+
+```
+npm -v
+```
+
+#### MDX-Deck e Code Surfer
+
+MDX-Deck e Code Surfer são duas bibliotecas de código aberto que permitem criar apresentações interativas usando React e MDX.
+
+
+###### MDX-Deck
+
+MDX-Deck é uma biblioteca de código aberto que permite criar apresentações interativas usando React e MDX (Markdown com suporte a JSX). Com o MDX-Deck, os usuários podem criar apresentações com componentes React personalizados e utilizar a sintaxe de Markdown para formatar o conteúdo.
+
+O MDX-Deck é altamente configurável e fornece recursos para personalizar a aparência e o comportamento das apresentações. Ele também suporta temas personalizados e é fácil de usar para iniciantes, enquanto ainda oferece recursos avançados para usuários experientes.
+
+Alguns dos recursos do MDX-Deck incluem a capacidade de criar transições personalizadas entre os slides, incorporar código ao vivo e suporte para apresentações em tela cheia. Com o MDX-Deck, é possível criar apresentações profissionais e envolventes em pouco tempo.
+
+###### Code Surfer
+
+Code Surfer é uma biblioteca de apresentação de programação que permite incorporar código ao vivo nas apresentações e visualizar os resultados em tempo real. Ele é altamente configurável e suporta diferentes temas, apresentações em tela cheia, gravação de apresentações em vídeo e muito mais.
+
+###### Instalando o MDX-Deck + Code Surfer
+
+Com as ferramentas anteriores devidamente instaladas, nós temos agora um ambiente local organizado para iniciar nosso projeto.
+
+Ainda dentro do seu diretório escolhido, digite o seguinte comando no temrinal:
+
+```
+npm init code-surfer-deck nome-do-seu-projeto
+```
+
+Substitua _**"nome-do-seu-projeto"**_ pelo nome do seu projeto. rsrs...
+
+Depois disso acesse a pasta do seu novo projeto pelo terminal com o comando:
+
+```
+cd nome-do-seu-projeto
+```
+
+Após acessar a pasta criada, é hora de rodar o projeto. Digite o no terminal o seguinte comando:
+
+```
+npm start
+```
+
+O comando ```npm start``` 
 
 
 
 
 
 
+![](https://upload.wikimedia.org/wikipedia/commons/d/d9/Under_construction_animated.gif)
+
+> Este tutotrial está em construção. Pausa para o café...
 
 
 

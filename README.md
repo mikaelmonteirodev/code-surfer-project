@@ -170,30 +170,26 @@ Agora com a versão correta do Node.js podemos passar para a próxima ferramenta
 
 #### NPM
 
-O NPM (Node Package Manager) 
-é um repositório on-line de pacotes de software Node.js prontos para uso, e é acessado usando o comando "npm" a partir do terminal ou da linha de comando. Além disso, ele é capaz de gerenciar as dependências de um projeto, permitindo que os desenvolvedores especifiquem quais pacotes ou bibliotecas o projeto precisa para ser executado corretamente.
+O NPM (Node Package Manager) é um repositório on-line de pacotes de software Node.js prontos para uso, e é acessado usando o comando "npm" a partir do terminal ou da linha de comando. Além disso, ele é capaz de gerenciar as dependências de um projeto, permitindo que os desenvolvedores especifiquem quais pacotes ou bibliotecas o projeto precisa para ser executado corretamente.
 
-Para verificar se a sua máquina está com o NPM instalado corretamente, primeiramente digite o seguinte comando no termimal:
+**O NPM é instalado automaticamente junto com o Node.js.** Portanto, se você já tiver o Node.js instalado em seu sistema, o NPM já estará disponível.
+
+Mesmo assim, só para ter certeza, você pode verificar se a sua máquina está com o NPM instalado corretamente, digitando o seguinte comando no termimal:
 
 ```
 npm -v
 ```
 
 
+
+
+
+
+
+
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d9/Under_construction_animated.gif)
 
 > Este tutotrial está em construção. Pausa para o café...
-
-
-
-
-
-
-
-
-
-
-
 
 
 
