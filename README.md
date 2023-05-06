@@ -1,5 +1,4 @@
-> Este tutotrial está em construção. Não repare a bagunça...
-
+> Este tutorial é público e estará sempre aberto para contribuições. [Veja](#contribuições)
 
 # Como iniciar meu projeto em Code-Surfer?
 
@@ -238,7 +237,7 @@ Para saber todas as funcionalidades do Code Surfer acesse https://codesurfer.pom
 
 #### Contribuições
 
-Este tutorial é público e está sempre aberto para contribuições.
+Este tutorial é público e estará sempre aberto para contribuições.
 
 Caso você queira dar uma sugestão, fazer uma reclamação ou me pagar um café, crie uma issue contendo as informações sugeridas que ela será analisada como contribuiçõa.
 
