@@ -113,6 +113,9 @@ No caso deste projeto, para instalar o Node.js na versão 14.5.0, você deve usa
 ```
 nvm install 14.5.0
 ```
+
+Caso prefira não instalar o NVM e sim instalar o ASDF, pule para o próximo passo.
+
 <br>
 
 ### ASDF
