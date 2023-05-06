@@ -277,6 +277,7 @@ Aqui estão os atuais contribuidores deste projeto:
 
 ### Licença
 
+[Licença](https://github.com/mikaelmonteirodev/code-surfer-project/blob/main/LICENSE)
 
 [Menu🔝](#menu)
 
