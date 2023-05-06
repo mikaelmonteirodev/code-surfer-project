@@ -90,6 +90,7 @@ O NVM (Node Version Manager) é um gerenciador de versão para o Node.js. Ele pe
 Para instalar o NVM no seu sistema Linux ou macOS, você pode seguir os seguintes passos:
 
 1 - Abra o terminal no seu sistema.
+
 2 - Baixe o script de instalação do NVM usando o comando ```curl```:
 
 ```
