@@ -9,10 +9,6 @@ A princípio ele parece grande, pode dar preguiça, mas vale a pena, pois está 
 
 ---
 
-## Resumo
-Primeiramente nós temos que organizar nosso ambiente de desenvolvimento com as tecnologias necessárias para a instalação e execução do nosso projeto de acordo com que pede a documentação de cada aplicação. E é ísso que vamos fazer agora.
-
----
 ## Menu
 
 - [Ambiente de Desenvolvimento](#ambiente-de-desenvolvimento)
@@ -21,19 +17,13 @@ Primeiramente nós temos que organizar nosso ambiente de desenvolvimento com as 
         - [NVM ou ASDF](#nvm-ou-asdf)
             - [NVM](#nvm)
             - [ASDF](#asdf)
-        - [NPM](#npm)
-        - [MDX-Deck e Code Surfer](#mdx-deck-e-code-surfer)
-            - [MDX-Deck](#mdx-deck)
-            - [Code Surfer](#code-surfer)
-            - [Instalando o MDX-Deck + Code Surfer](#instalando-o-mdx-deck-+-code-surfer)
-        - [Contribuições](#contribuições)
-- Iniciando o projeto com Code Surfer
-    - Comandos
-    - Instalando
-    - Acessando
-- Usando
-- Contribuidores
-- Licença
+    - [NPM](#npm)
+    - [MDX-Deck e Code Surfer](#mdx-deck-e-code-surfer)
+        - [MDX-Deck](#mdx-deck)
+        - [Code Surfer](#code-surfer)
+        - [Instalando o MDX-Deck + Code Surfer](#instalando-o-mdx-deck-+-code-surfer)
+- [Contribuições](#contribuições)
+- [Licença](#licença)
 
 ---
 
@@ -255,3 +245,7 @@ Caso você queira dar uma sugestão, fazer uma reclamação ou me pagar um café
 Aqui estão os atuais contribuidores deste projeto:
 
 [![Contributors](https://contributors-img.web.app/image?repo=mikaelmonteirodev/code-surfer-test)](https://github.com/mikaelmonteirodev/code-surfer-test/graphs/contributors)
+
+---
+
+#### Licença
