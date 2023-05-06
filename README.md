@@ -236,6 +236,15 @@ Para saber todas as funcionalidades do Code Surfer acesse https://codesurfer.pom
 
 ---
 
+#### Contribuições
+
+Este tutorial é público e está sempre aberto para contribuições.
+
+Caso você queira dar uma sugestão, fazer uma reclamação ou me pagar um café, crie uma issue contendo as informações sugeridas que ela será analisada como contribuiçõa.
+
+Aqui estão os atuais contribuintes deste projeto:
+
+[![Contributors](https://contributors-img.web.app/image?repo=dcteam7/calendog)](https://github.com/dcteam7/calendog/graphs/contributors) 
 
 
 
