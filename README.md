@@ -30,7 +30,7 @@ A princípio ele parece grande, pode dar preguiça, mas vale a pena, pois está 
 
 Para construírmos nosso projeto precisamos ter algumas ferramentas à nossa disposição. E ter as ferramentas adequadas significa ter o ambiente de desenvolvimento preparado para executar nosso porjeto.
 
-#### Ferramentas que iremos utilizar:
+### Ferramentas que iremos utilizar:
 
 - Node.js (versão 14.5.0)
 - NVM ou ASDF
@@ -51,7 +51,7 @@ Acesse pelo terminal o diretório escolhido (Seja do Windows, Linux ou IOS) e va
 
 ---
 
-#### Node.js
+### Node.js
 
 Para que o projeto com Code Surfer e MDX-Deck funcione perfeitamente, é necessário que você tenha a versão do Node.js instalado corretamente na sua maquina.
 
@@ -78,12 +78,12 @@ Agora devemos utilizar um gerenciador de versões, para alterarmos o Node.js par
 
 
 ---
-#### NVM ou ASDF
+### NVM ou ASDF
 
 Tanto o NVM quanto o ASDF são ferramentas muito úteis para desenvolvedores que precisam trabalhar com diferentes versões de linguagens de programação em um único sistema. Eles permitem que você instale e gerencie várias versões de uma linguagem de programação e suas dependências, sem precisar se preocupar com conflitos entre as diferentes versões instaladas.
 <br>
 
-#### NVM
+### NVM
 
 O NVM (Node Version Manager) é um gerenciador de versão para o Node.js. Ele permite que você instale e gerencie várias versões do Node.js em um único sistema, e permite alternar facilmente entre as versões instaladas. Com o NVM, você pode facilmente instalar diferentes versões do Node.js e alternar entre elas usando um único comando no terminal.
 
@@ -114,7 +114,7 @@ nvm install 14.5.0
 ```
 <br>
 
-#### ASDF
+### ASDF
 
 O ASDF (Another System Version Manager) permite que você instale e gerencie diferentes versões de linguagens em um único sistema, e permite alternar facilmente entre as versões instaladas.
 
@@ -165,7 +165,7 @@ Agora com a versão correta do Node.js podemos passar para a próxima ferramenta
 
 ---
 
-#### NPM
+### NPM
 
 O NPM (Node Package Manager) é um repositório on-line de pacotes de software Node.js prontos para uso, e é acessado usando o comando "npm" a partir do terminal ou da linha de comando. Além disso, ele é capaz de gerenciar as dependências de um projeto, permitindo que os desenvolvedores especifiquem quais pacotes ou bibliotecas o projeto precisa para ser executado corretamente.
 
@@ -182,11 +182,11 @@ npm -v
 
 ---
 
-#### MDX-Deck e Code Surfer
+### MDX-Deck e Code Surfer
 
 MDX-Deck e Code Surfer são duas bibliotecas de código aberto que permitem criar apresentações interativas usando React e MDX.
 
-#### MDX-Deck
+### MDX-Deck
 
 Com o MDX-Deck, os usuários podem criar apresentações com componentes React personalizados e utilizar a sintaxe de Markdown para formatar o conteúdo.
 
@@ -194,11 +194,11 @@ O MDX-Deck é altamente configurável e fornece recursos para personalizar a apa
 
 Alguns dos recursos do MDX-Deck incluem a capacidade de criar transições personalizadas entre os slides, incorporar código ao vivo e suporte para apresentações em tela cheia. Com o MDX-Deck, é possível criar apresentações profissionais e envolventes em pouco tempo.
 
-#### Code Surfer
+### Code Surfer
 
 Code Surfer é uma biblioteca de apresentação de programação que permite incorporar código ao vivo nas apresentações e visualizar os resultados em tempo real. Ele é altamente configurável e suporta diferentes temas, apresentações em tela cheia, gravação de apresentações em vídeo e muito mais.
 
-#### Instalando o MDX-Deck + Code Surfer
+### Instalando o MDX-Deck + Code Surfer
 
 Com as ferramentas anteriores devidamente instaladas, nós temos agora um ambiente local organizado para iniciar nosso projeto.
 
@@ -249,7 +249,7 @@ Para saber todas as funcionalidades do Code Surfer acesse https://codesurfer.pom
 
 ---
 
-#### Contribuições
+### Contribuições
 
 Este tutorial é público e estará sempre aberto para contribuições.
 
@@ -264,7 +264,7 @@ Aqui estão os atuais contribuidores deste projeto:
 
 ---
 
-#### Licença
+### Licença
 
 
 [Menu🔝](#menu)
