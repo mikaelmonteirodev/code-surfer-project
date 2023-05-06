@@ -242,45 +242,6 @@ Este tutorial é público e está sempre aberto para contribuições.
 
 Caso você queira dar uma sugestão, fazer uma reclamação ou me pagar um café, crie uma issue contendo as informações sugeridas que ela será analisada como contribuiçõa.
 
-Aqui estão os atuais contribuintes deste projeto:
+Aqui estão os atuais contribuidores deste projeto:
 
-[![Contributors](https://contributors-img.web.app/image?repo=dcteam7/calendog)](https://github.com/dcteam7/calendog/graphs/contributors) 
-
-
-
-
-
-
-
-
-
-
-![](https://upload.wikimedia.org/wikipedia/commons/d/d9/Under_construction_animated.gif)
-
-> Este tutotrial está em construção. Pausa para o café...
-
-
-
-<!-- # MDX Deck + Code Surfer template
-
-This project was generated with the `npm init code-surfer-deck` command.
-
-## Development
-
-To run the presentation deck in development mode:
-
-```sh
-npm start
-```
-
-Edit the [`deck.mdx`](deck.mdx) file to get started.
-
-## Exporting
-
-To build the presentation deck:
-
-```sh
-npm run build
-```
-
-For more documentation see [MDX Deck](https://github.com/jxnblk/mdx-deck) and [Code Surfer](https://codesurfer.pomb.us/) -->
+[![Contributors](https://contributors-img.web.app/image?repo=mikaelmonteirodev/code-surfer-test)](https://github.com/mikaelmonteirodev/code-surfer-test/graphs/contributors)
