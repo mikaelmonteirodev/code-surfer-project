@@ -180,6 +180,11 @@ Mesmo assim, só para ter certeza, você pode verificar se a sua máquina está 
 npm -v
 ```
 
+#### MDX-Deck e Code Surfer
+
+MDX-Deck e Code Surfer são duas bibliotecas de código aberto que permitem criar apresentações interativas usando React e MDX.
+
+
 
 
 
