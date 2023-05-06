@@ -152,11 +152,9 @@ Substitua <versão> pela versão específica do Node.js que você deseja usar. P
 asdf global node 14.5.0
 ```
 
-
-
 Pronto!
 
-Agora com a versão correta do Node.js podemos passar para a próxima ferramenta que é o NPM. 
+Agora com a versão correta do Node.js podemos passar para a próxima ferramenta que é o NPM.
 
 ---
 
@@ -210,7 +208,21 @@ Quando a instalação terminar, acesse a pasta do seu novo projeto pelo terminal
 cd nome-do-seu-projeto
 ```
 
-Após acessar a pasta criada, é hora de rodar o projeto. Digite no terminal o seguinte comando:
+Antes de rodarmos o projeto com o próximo código, é necessário fazer mais um procedimento: Inlcuir arquivo ```.tool-versions``` na raiz do projeto. Este arquivo vai definir a versão do node.js que está sendo usada.
+
+Para isso, dentro do diretório do seu projeto, digite:
+
+```
+code .
+```
+
+Este comando vai abrir seu projeto dentro do **VSCode**. E por ele mesmo você criar o arquivo ```.tool-versions```.
+
+Após criado, abra o arquivo e digite o texto ```Nodejs 14.5.0``` que é a versão do node.js que será usado no projeto.
+
+Depois disso salve seu projeto e continue o próximo passo.
+
+Agora é hora de rodar o projeto! Digite no terminal o seguinte comando:
 
 ```
 npm start
@@ -218,6 +230,11 @@ npm start
 
 O comando ```npm start``` vai rodar seu projeto e abrirá uma janela no navegador mostrando uma apresentação de slides de demonstração, feita com MDX-Deck e Code Surfer.
 
+Pronto! Agora projeto está preparado para receber sua apresentação. E ela deve ser preparada no arquivo principal, chamado ```deck.mdx```.
+
+Para saber todas as funcionalidades do Code Surfer acesse https://codesurfer.pomb.us e use a criatividade.
+
+---
 
 
 
