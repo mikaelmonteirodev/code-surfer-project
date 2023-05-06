@@ -47,6 +47,8 @@ Você pode usar o diretório onde se encontram seus outros projetos, pois quando
 
 Acesse pelo terminal o diretório escolhido (Seja do Windows, Linux ou IOS) e vamos para a instalação de cada um deles.
 
+[Menu🔝](#menu)
+
 ---
 
 #### Node.js
@@ -71,6 +73,9 @@ node -v
 E agora?!
 
 Agora devemos utilizar um gerenciador de versões, para alterarmos o Node.js para a versão mais adequada ao projeto. É é aí que entram o NVM ou o ASDF.
+
+[Menu🔝](#menu)
+
 
 ---
 #### NVM ou ASDF
@@ -155,6 +160,9 @@ Pronto!
 
 Agora com a versão correta do Node.js podemos passar para a próxima ferramenta que é o NPM.
 
+[Menu🔝](#menu)
+
+
 ---
 
 #### NPM
@@ -168,6 +176,9 @@ Mesmo assim, só para ter certeza, você pode verificar se a sua máquina está 
 ```
 npm -v
 ```
+
+[Menu🔝](#menu)
+
 
 ---
 
@@ -233,6 +244,9 @@ Pronto! Agora projeto está preparado para receber sua apresentação. E ela dev
 
 Para saber todas as funcionalidades do Code Surfer acesse https://codesurfer.pomb.us e use a criatividade.
 
+[Menu🔝](#menu)
+
+
 ---
 
 #### Contribuições
@@ -245,6 +259,13 @@ Aqui estão os atuais contribuidores deste projeto:
 
 [![Contributors](https://contributors-img.web.app/image?repo=mikaelmonteirodev/code-surfer-test)](https://github.com/mikaelmonteirodev/code-surfer-test/graphs/contributors)
 
+[Menu🔝](#menu)
+
+
 ---
 
 #### Licença
+
+
+[Menu🔝](#menu)
+
