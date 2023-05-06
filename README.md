@@ -20,7 +20,7 @@ A princípio ele parece grande, pode dar preguiça, mas vale a pena, pois está 
         - [MDX-Deck e Code Surfer](#mdx-deck-e-code-surfer)
             - [MDX-Deck](#mdx-deck)
             - [Code Surfer](#code-surfer)
-            - [Instalando o MDX-Deck + Code Surfer](#instalando-o-mdx-deck-+-code-surfer)
+            - [Instalando o MDX-Deck + Code Surfer](#instalando-o-mdx-deck--code-surfer)
 - [Contribuições](#contribuições)
 - [Licença](#licença)
 
