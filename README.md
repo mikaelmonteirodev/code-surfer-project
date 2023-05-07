@@ -208,7 +208,7 @@ Alguns dos recursos do MDX-Deck incluem a capacidade de criar transições perso
 
 ### Code Surfer
 
-Code Surfer é uma biblioteca de apresentação de programação que permite incorporar código ao vivo nas apresentações e visualizar os resultados em tempo real. Ele é altamente configurável e suporta diferentes temas, apresentações em tela cheia, gravação de apresentações em vídeo e muito mais.
+Code Surfer é uma biblioteca de apresentação de programação, criada pelo incrível desenvolvedor @pomber, que permite incorporar código ao vivo nas apresentações e visualizar os resultados em tempo real. Ele é altamente configurável e suporta diferentes temas, apresentações em tela cheia, gravação de apresentações em vídeo e muito mais.
 
 ### Instalando o MDX-Deck + Code Surfer
 
