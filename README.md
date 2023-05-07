@@ -28,7 +28,7 @@ A princípio ele parece grande, pode dar preguiça, mas vale a pena, pois está 
 
 ## Ambiente de Desenvolvimento
 
-Para construírmos nosso projeto precisamos ter algumas ferramentas à nossa disposição. E ter as ferramentas adequadas significa ter o ambiente de desenvolvimento preparado para executar nosso porjeto.
+Para construirmos nosso projeto precisamos ter algumas ferramentas à nossa disposição. E ter as ferramentas adequadas significa ter o ambiente de desenvolvimento preparado para executar nosso projeto.
 
 ### Ferramentas que iremos utilizar:
 
@@ -41,7 +41,7 @@ Para construírmos nosso projeto precisamos ter algumas ferramentas à nossa dis
 
 <br>
 
-Escolha um diretório dentro da sua maquina para executar o projeto e os comandos que serão informados aqui neste tutorial. 
+Escolha um diretório dentro da sua máquina para executar o projeto e os comandos que serão informados aqui neste tutorial. 
 
 Você pode usar o diretório onde se encontram seus outros projetos, pois quando iniciarmos este novo projeto com Code Surfer ele criará uma nova com seu nome.
 
@@ -53,7 +53,7 @@ Acesse pelo terminal o diretório escolhido (Seja do Windows, Linux ou IOS) e va
 
 ### Node.js
 
-Para que o projeto com Code Surfer e MDX-Deck funcione perfeitamente, é necessário que você tenha a versão do Node.js instalado corretamente na sua maquina.
+Para que o projeto com Code Surfer e MDX-Deck funcione perfeitamente, é necessário que você tenha a versão do Node.js instalado corretamente na sua máquina.
 
 Baixe diretamente do site oficial do [Node.js](https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi). Ou, para instalar manualmente pelo terminal do linux, digite o seguinte comando:
 
@@ -67,12 +67,13 @@ Após terminar a instalação, confira a versão instalada com o seguinte comand
 node -v
 ```
 <br>
-###### **Importante!**
-**_O projeto com Code Surfer e Mdx-Deck funciona melhor com as versões mais antigas do Node.js, como por exemplo a versão 14.5.0._**
+
+#### Importante!!!
+**_O projeto com Code Surfer e Mdx-Deck funciona melhor com as versões mais antigas do Node.js como, por exemplo, a versão 14.5.0._**
 
 E agora?!
 
-Agora devemos utilizar um gerenciador de versões, para alterarmos o Node.js para a versão mais adequada ao projeto. É é aí que entram o NVM ou o ASDF.
+Agora devemos utilizar um gerenciador de versões, para alterarmos o Node.js para a versão mais adequada ao projeto. É aí que entra o NVM ou o ASDF.
 
 [Menu🔝](#menu)
 
@@ -180,9 +181,9 @@ Agora com a versão correta do Node.js podemos passar para a próxima ferramenta
 
 O NPM (Node Package Manager) é um repositório on-line de pacotes de software Node.js prontos para uso, e é acessado usando o comando "npm" a partir do terminal ou da linha de comando. Além disso, ele é capaz de gerenciar as dependências de um projeto, permitindo que os desenvolvedores especifiquem quais pacotes ou bibliotecas o projeto precisa para ser executado corretamente.
 
-**O NPM é instalado automaticamente junto com o Node.js.** Portanto, se você já tiver o Node.js instalado em seu sistema, o NPM já estará disponível.
+**O NPM é instalado automaticamente com o Node.js.** Portanto, se você já tiver o Node.js instalado em seu sistema, o NPM já estará disponível.
 
-Mesmo assim, só para ter certeza, você pode verificar se a sua máquina está com o NPM instalado corretamente, digitando o seguinte comando no termimal:
+Mesmo assim, só para ter certeza, você pode verificar se a sua máquina está com o NPM instalado corretamente, digitando o seguinte comando no terminal:
 
 ```
 npm -v
@@ -229,7 +230,7 @@ Quando a instalação terminar, acesse a pasta do seu novo projeto pelo terminal
 cd nome-do-seu-projeto
 ```
 
-Antes de rodarmos o projeto com o próximo código, é necessário fazer mais um procedimento: Inlcuir arquivo ```.tool-versions``` na raiz do projeto. Este arquivo vai definir a versão do node.js que está sendo usada.
+Antes de rodarmos o projeto com o próximo código, é necessário fazer mais um procedimento: Incluir arquivo ```.tool-versions``` na raiz do projeto. Este arquivo vai definir a versão do node.js que está sendo usada.
 
 Para isso, dentro do diretório do seu projeto, digite:
 
@@ -264,7 +265,7 @@ Para saber todas as funcionalidades do Code Surfer acesse https://codesurfer.pom
 
 Este tutorial é público e estará sempre aberto para contribuições.
 
-Caso você queira dar uma sugestão, fazer uma reclamação ou me pagar um café, crie uma issue contendo as informações sugeridas que ela será analisada como contribuição.
+Caso você queira dar uma sugestão, fazer uma reclamação ou me pagar um café, crie uma *issue* contendo as informações sugeridas que ela será analisada como contribuição.
 
 Aqui estão os atuais contribuidores deste projeto:
 
@@ -277,7 +278,7 @@ Aqui estão os atuais contribuidores deste projeto:
 
 ### Licença
 
-[Licença](https://github.com/mikaelmonteirodev/code-surfer-project/blob/main/LICENSE)
+[Licença MIT](https://github.com/mikaelmonteirodev/code-surfer-project/blob/main/LICENSE)
 
 [Menu🔝](#menu)
 
