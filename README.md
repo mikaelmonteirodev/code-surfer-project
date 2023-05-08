@@ -1,4 +1,4 @@
-> Este tutorial é público e estará sempre aberto para contribuições. [Veja](#contribuições)
+> Este tutorial é público e estará em atualização constante!. [Como contribuir?](#contribuições)
 
 # Como iniciar meu projeto em Code-Surfer?
 
