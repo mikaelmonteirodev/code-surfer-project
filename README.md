@@ -123,52 +123,105 @@ Caso prefira não instalar o NVM e sim instalar o ASDF, pule para o próximo pas
 
 O ASDF (Another System Version Manager) permite que você instale e gerencie diferentes versões de linguagens em um único sistema, e permite alternar facilmente entre as versões instaladas.
 
-O comando para instalar o ASDF depende do sistema operacional que está sendo utilizado. Aqui estão os comandos para algumas plataformas comuns:
+A instalação do asdf envolve:
 
-No Ubuntu ou Debian digite:
+1- Instalar as dependências;
+2- Instalar o núcleo do asdf;
+3- Adicionar o asdf ao seu shell;
+4- Instalar um plugin para cada ferramenta que você gostaria de gerenciar;
+5- Instalar uma versão desta ferramenta;
+6- Definir uma versão global e uma versão local através do arquivo de configuração ```.tool-versions```;
+
+> **Você pode também acompanhar o passo a passo da instalação  [neste vídeo](https://www.youtube.com/watch?v=8W3xaSPjeog).**
+
+#### 1 - Instalando as dependências
+
+O ASDF requer principalmente ```git``` & ```curl```. Instale estas dependências com o seguinte comando:
 
 ```
-sudo apt-get install asdf
+apt install curl git
 ```
 
-No macOS (usando Homebrew) digite:
+#### 2 - Faça o download
+
+Com o comando abaixo faça o download do ASDF:
 
 ```
-brew install asdf
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.3
 ```
 
-No Arch Linux digite:
+#### 3 - Adicionando ao seu shell
+
+Existem diversas combinações de shells, sistemas operacionais e métodos de instalação que podem impactar a configuração. Abaixo, expanda a seção que se adeque mais com o seu sistema:
+
+Adicione esta linha ao seu ```~/.bashrc```:
 
 ```
-sudo pacman -S asdf
+. "$HOME/.asdf/asdf.sh"
 ```
 
-**É necessário também fazer a instalação do Plug-in do ASDF.** Digite o seguinte comando:
+O auto completar deve ser configurado manualmente a partir da adição da seguinte linha ao ```.bashrc```:
+
+```
+. "$HOME/.asdf/completions/asdf.bash"
+```
+
+Reinicie seu shell para que as mudanças na variável PATH tenham efeito. Abrir uma nova janela/sessão de terminal irá fazer isso.
+
+#### 4 - Instalando um plugin
+
+Para demonstração, vamos instalar e configurar o Node.js através do plugin ```asdf-nodejs```.
+
+**Dependências dos plugins**
+
+Cada plugin possui algumas dependências, por isso precisamos checar no repositório onde elas estão listadas. Por exemplo, para o ```asdf-nodejs``` são:
+
+```
+apt-get install dirmngr gpg curl gawk
+```
+
+Devemos instalar instalar as dependências primeiro, pois alguns plugins exigem algumas ações após a instalação.
+
+**Instalando o plugin**
 
 ```
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 ```
 
+#### 5 - Instalando uma versão
 
-Para verificar a versão do ASDF instalada no seu sistema, você pode usar o seguinte comando no terminal:
+Agora temos o plugin para o Node.js, nós podemos instalar uma versão desta ferramenta.
 
-```
-asdf --version
-```
+Podemos ver quais versões tão disponíveis através do comando ```asdf list all nodejs```, ou uma lista específica de versões com ```asdf list all nodejs 14```
 
-Para alterar a versão do Node.js usando o ASDF, você pode usar o seguinte comando:
+#### 6 - Definindo uma versão
 
-```
-asdf global node <versão>
-```
+O ASDF executa uma verificação das versões das ferramentas a serem utilizadas através do arquivo ```.tool-versions``` presente desde diretório atual, até o diretório ```$HOME```. A varredura ocorre no momento em que você executa uma ferramenta que o asdf gerencia.
 
-Substitua <versão> pela versão específica do Node.js que você deseja usar. Por exemplo, se você quiser mudar para a versão 14.5.0, o comando seria:
+**Versões globais**
 
-```
-asdf global node 14.5.0
-```
+Os padrões globais são gerenciados em ```$HOME/.tool-versions```. Defina uma versão global para ser utilizada como padrão nos demais projetos, através do comando:
 
-Pronto!
+```asdf global nodejs latest```
+
+```$HOME/.tool-versions``` ficará assim:
+
+```nodejs <versão desejada>```
+
+**Versões locais**
+Versões locais são definidas no arquivo ```$PWD/.tool-versions``` (seu diretório atual). Geralmente, será um repositório Git para um projeto. Quando estiver no diretório desejado, execute:
+
+```asdf local nodejs latest```
+
+```$PWD/.tool-versions``` ficará assim:
+
+```nodejs 14.5.0```
+
+**Setup finalizado!**
+
+A configuração inicial do ASDF foi finalizada 🎉. Agora, você pode gerenciar versões do nodejs para o seus projetos. Siga passos semelhantes para cada ferramenta do seu projeto.
+
+O ASDF possui diversos outros comandos para se acustomar ainda, você pode ver todos eles através do comando ```asdf --help``` ou simplesmente ```asdf```. 
 
 Agora com a versão correta do Node.js podemos passar para a próxima ferramenta que é o NPM.
 
