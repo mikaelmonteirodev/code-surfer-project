@@ -121,9 +121,9 @@ Caso prefira não instalar o NVM e sim instalar o ASDF, pule para o próximo pas
 
 ### ASDF
 
-O ASDF (Another System Version Manager) permite que você instale e gerencie diferentes versões de linguagens em um único sistema, e permite alternar facilmente entre as versões instaladas.
+O ASDF (Another System Version Manager) permite que você instale e gerencie diferentes versões de linguagens em um único sistema, e permite alternar facilmente entre as versões instaladas. ( *[Fonte: Documentação do ASDF](https://asdf-vm.com/pt-br/guide/getting-started.html)* )
 
-A instalação do asdf envolve:
+A instalação do ASDF envolve:
 
 1- Instalar as dependências;
 2- Instalar o núcleo do asdf;
