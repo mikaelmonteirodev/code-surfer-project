@@ -125,12 +125,12 @@ O ASDF (Another System Version Manager) permite que você instale e gerencie dif
 
 A instalação do ASDF envolve:
 
-1- Instalar as dependências;
-2- Instalar o núcleo do asdf;
-3- Adicionar o asdf ao seu shell;
-4- Instalar um plugin para cada ferramenta que você gostaria de gerenciar;
-5- Instalar uma versão desta ferramenta;
-6- Definir uma versão global e uma versão local através do arquivo de configuração ```.tool-versions```;
+1. Instalar as dependências;
+2. Instalar o núcleo do asdf;
+3. Adicionar o asdf ao seu shell;
+4. Instalar um plugin para cada ferramenta que você gostaria de gerenciar;
+5. Instalar uma versão desta ferramenta;
+6. Definir uma versão global e uma versão local através do arquivo de configuração ```.tool-versions```;
 
 > **Você pode também acompanhar o passo a passo da instalação  [neste vídeo](https://www.youtube.com/watch?v=8W3xaSPjeog).**
 
